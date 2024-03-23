@@ -49,7 +49,7 @@ async def book_instance(request: Request, book_id: int, session: AsyncSession = 
     else:
         serializer = BookSerializer(instance=book)
         data = await serializer.data
-        # Note: be careful with JSONResponse, it don`t serialize pydantic models if depth more than 1
+        # Note: be careful with JSONResponse, it don`t serialize pydantic models
         return {"status": "OK", "detail": data}
 
 
