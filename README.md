@@ -16,7 +16,7 @@ You can use this project as a guideline for integrating the library into your ow
 First of all clone the project
 
 ```bash
-git clone https://github.com/zayycev22/fastapi_auth_tortoise_example.git
+git clone https://github.com/zayycev22/fastapi_auth_sqlalchemy_example.git
 ```
 
 Install the library
