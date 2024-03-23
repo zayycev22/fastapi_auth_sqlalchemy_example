@@ -15,7 +15,7 @@ class ArticleSerializer(ModelSerializer):
 
 class BookSerializer(Serializer):
     author: str
-    article: Optional[ArticleSerializer.response_schema()]
+    article: Optional[ArticleSerializer.response_schema()] = ArticleSerializer
     time_created: datetime.datetime
 
     async def get_author(self, instance: Book) -> str:
