@@ -1,4 +1,4 @@
-# FastAPI-auth with Tortoise ORM example
+# FastAPI-auth with SqlAlchemy ORM example
 
 This project provides a tutorial example of using the FasAPI-auth library using the SqlAlchemy ORM.
 This repository demonstrates the main capabilities of the [library](https://github.com/zayycev22/fastapi-auth).
