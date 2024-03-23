@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - 127.0.0.1:8000:8000
+    container_name: fastapi-auth-sqlalchemy-example
+    env_file:
+      - .env
+    restart: on-failure
