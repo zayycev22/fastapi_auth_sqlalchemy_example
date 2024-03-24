@@ -1,6 +1,6 @@
 from fastapi import Depends
 from fastapi_auth.managers import Manager
-from fastapi_auth_sqlalchemy_models import UserRepository
+from fastapi_auth.sqlalchemy_models import UserRepository
 
 from auth.models import get_user_repository, User
 
