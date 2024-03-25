@@ -4,7 +4,7 @@ from typing import Optional
 from fastapi_auth.serializers import Serializer
 
 from books.models import Book, Article
-from fastapi_auth.sqlalchemy_models.serializers import ModelSerializer
+from fastapi_auth.serializers.sqlalchemy.serializers import ModelSerializer
 
 
 class ArticleSerializer(ModelSerializer):
